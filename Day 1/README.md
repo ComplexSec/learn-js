@@ -83,7 +83,8 @@ console.log('Hello' + ' ' + 'World');
 
 Example:
 ```javascript
-console.log('Teaching the world how to code'.length) // Prints 30 (num of chars in string)
+// Prints 30 (num of chars in string)
+console.log('Teaching the world how to code'.length)
 ```
 
 ## Methods
@@ -124,8 +125,12 @@ Math.floor(Math.random() * 50); // Prints integer up to 50
 3. Math.floor rounds the number down
 
 ```javascript
-console.log(Math.floor(Math.random() * 100)); // Generates a number, multiplies it by 100, rounds it down and prints it
-console.log(Math.ceil(43.8)); // Prints 44 to the screen after rounding
-console.log(Number.isInteger(2017)); // Checks if 2017 is an integer, returns TRUE and prints
-```
+// Generate number, multiply it, round it down & print
+console.log(Math.floor(Math.random() * 100));
 
+// Prints 44 to the screen after rounding
+console.log(Math.ceil(43.8));
+
+// Check 2017 is an int, returns TRUE and prints
+console.log(Number.isInteger(2017));
+```
