@@ -1,4 +1,4 @@
-# Introduction to JavaScript - Day 1
+# Introduction to JavaScript - Day 2
 
 ## Short Review
 
