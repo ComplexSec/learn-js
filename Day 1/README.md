@@ -22,6 +22,8 @@
 * Access properties and methods using `.` operator
 * Built-in objects - including `Math` are collections of methods & properties that JS provides
 
+## In-Depth Details
+
 <details><summary>Console</summary>
 <p>
 
