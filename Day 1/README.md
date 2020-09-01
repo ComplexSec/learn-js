@@ -1,5 +1,7 @@
 # Introduction to JavaScript - Day 1
 
+## Short Review
+
 <details><summary>Console</summary>
 <p>
 
