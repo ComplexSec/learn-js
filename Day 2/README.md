@@ -1,6 +1,21 @@
-# Introduction to JavaScript - Day 2
+# Introduction to JavaScript - Day 1
 
-## Variables
+## Short Review
+
+* Variables hold reusable data in program and assign a name
+* Variables stored in memory
+* `var` keyword used in pre-ES6 version of JS
+* `let` can be re-assigned
+* `const` cannot be re-assigned
+* Non-initialized variables hold data type of `undefined`
+* `+` operator used to concatenate strings
+* ES6 template literals use backticks and ${} to interpolate values into a string
+* The `typeof` keywords returns the data type of a value
+
+## In-depth Details
+
+<details><summary>Variables</summary>
+<p>
 
 * Variable is a container for a value
 	* Containers for info that lives in a computer's memory
@@ -10,7 +25,11 @@
 	2. Store/update info stored in a variable
 	3. Reference info stored in a variable
 
-## Create a Variable: var
+</p>
+</details>
+
+<details><summary>Create a Variable: var</summary>
+<p>
 
 * Two new keywords in ES6 JavaScript - `let` and `const`
 
@@ -38,8 +57,11 @@ var numOfSlices = 8; // initialize var
 console.log(favoriteFood); // print pizza
 console.log(numOfSlices); // print 8
 ```
+</p>
+</details>
 
-## Create a Variable: let
+<details><summary>Create a Variable: let</summary>
+<p>
 
 * `let` keyword introduce in ES6
 * `let` signals the variable can be re-assigned a different value
@@ -50,7 +72,12 @@ let changeMe = true; // assign bool val to variable
 changeMe = false; // change value to false
 console.log(changeMe); // print false
 ````
-## Create a Variable: const
+
+</p>
+</details>
+
+<details><summary>Create a Variable: const</summary>
+<p>
 
 * `const` keyword introduce in ES6
 * `const` variable cannot be re-assigned
@@ -61,7 +88,11 @@ const entree = 'Enchiladas'; // creates const variable
 console.log(entree); // prints Enchiladas
 ````
 
-## Mathematical Assignment Operators
+</p>
+</details>
+
+<details><summary>Mathematical Assignment: Operators</summary>
+<p>
 
 Example:
 
@@ -91,7 +122,11 @@ multiplyMe *= 11; // multiply by 11
 quarterMe /= 4; // divide by 4
 ````
 
-## Increment and Decrement Operator
+</p>
+</details>
+
+<details><summary>Increment and Decrement Operator</summary>
+<p>
 
 * The `++` operator increases value by 1
 * The `--` operator decreases value by 1
@@ -104,7 +139,11 @@ gainedDollar++; // add 1
 lostDollar--; // subtract 1
 ```
 
-## String Concatenation
+</p>
+</details>
+
+<details><summary>String Concatenation</summary>
+<p>
 
 * The `+` operator can be used to combine two strings
 
@@ -113,8 +152,12 @@ let favouriteAnimal = 'dog';
 console.log('My favourite animal: ' + favouriteAnimal);
 ```
 
-## String Interpolation
+</p>
+</details>
 
+<details><summary>String Interpolation</summary>
+<p>
+	
 * ES6 can insert (interpolate) variables into strings using __template literals__
 * Template literals wrapped by backticks 
 * Benefits of template literals is readability of code
@@ -126,7 +169,11 @@ let myCity = 'Glasgow';
 console.log(`My name is ${myName}. My favorite city is ${myCity}`);
 ```
 
-## typeof Operator
+</p>
+</details>
+
+<details><summary>typeof Operator</summary>
+<p>
 
 * typeof allows us to check data type of variable value
 * `typeof` checks value to its right and returns, a string of the dat type
@@ -138,3 +185,6 @@ console.log(typeof newVariable); // prints string
 newVariable = 1
 console.log(typeof newVariable); // prints number
 ```
+
+</p>
+</details>
